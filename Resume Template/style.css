@@ -1,0 +1,44 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.first-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.image-conatiner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    /* border: 1px solid black; */
+    /* background-color: rgb(68, 23, 23); */
+}
+
+img {
+    border-radius: 50%;
+}
+
+.image-conatiner h1,
+p {
+
+
+    color: white;
+}
+
+.heading {
+    text-align: center;
+    color: rgb(51, 51, 51);
+    font-size: 17px;
+    font-family: ui-sans-serif;
+    font-weight: 400;
+}
+
+.fa-solid.fa-square {
+    font-size: 20px;
+    margin: 10px;
+    color: grey;
+}
